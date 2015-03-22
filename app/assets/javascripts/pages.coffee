@@ -3,20 +3,10 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
  `
 var main = function(){
-	/*
-	$('.icon-menu').toggle(
-		function(){
-			$('.menu').animate({left: 250}, 'slow');
-		},
-		function(){
-			$('.menu').animate({left: 0}, 'slow');
-		}
-
-	);*/
 
 	$('.icon-menu').click(function(){
 		$('.menu').animate({left: 0}, 'slow');
-		//$(this).hide();
+
 	});
 
 	$('.icon-close').click(function(){
@@ -26,5 +16,5 @@ var main = function(){
 	});
 }
 
- $(document).ready(main);
+$(document).ready(main);
  `
