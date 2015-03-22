@@ -54,7 +54,7 @@ h2 {
 }
 
 .menu {
-	backgroud-color: #000;
+	background-color: #000;
 	height: 100%;
 	position: fixed;
 	top: 0;
@@ -62,11 +62,24 @@ h2 {
 	left: -240px;
 	z-index: 1;
 }
+.menu ul {
+	list-style: none;
+	padding-left: 0;
+	
+}
+.menu li a, .menu li a:visited {
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 30px 40px;
+	text-decoration: none;
+}
 
 .menu .icon-close {
 	position: absolute;
 	top: 30px;
-	left: 30px;
+	right: 30px;
 	cursor: pointer;
 }
 
