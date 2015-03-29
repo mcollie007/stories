@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get '/about' => 'about#about'
 
+  get '/thanks' => 'thank#thanks'
+
   resources :signups
 
   # Example of regular route:
